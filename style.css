@@ -1,0 +1,44 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+header{
+	width:100%;
+	height: 200vh;
+	background-image: url("images/image-1.jpg");
+	position:relative;
+	background-repeat: no repeat;
+	background-position:top;
+	background-size:cover;
+}
+h1,h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	
+
+}	
+h2{
+
+	letter-spacing: 2rem;
+	word-spacing: 40px;
+    text-shadow: 5px 8px 4px red;
+}
+h1{
+   word-spacing: 20px;
+   text-shadow: 5px 8px 4px blue;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    
+    width: 64px!important;
+    height: 44px!important;
+    border: 1px solid green;
+    border-radius: 20px;
+   
+    color:blue;
+    background-image:url("images/arrow.jpg")!important;
+}
+
